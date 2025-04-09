@@ -24,6 +24,8 @@ DB_COLLATION=utf8_unicode_ci
 
 Instala todas las dependencias del proyecto con `composer install`
 
+Genera la llave de encriptado! `php artisan key:generate`
+
 corre las migraciones `php artisan migrate`
 
 y posteriormente abre el servidor `php artisan serve` y prueba!
