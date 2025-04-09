@@ -22,6 +22,8 @@ DB_CHARSET=utf8
 DB_COLLATION=utf8_unicode_ci
 ```
 
+Instala todas las dependencias del proyecto con `composer install`
+
 corre las migraciones `php artisan migrate`
 
 y posteriormente abre el servidor `php artisan serve` y prueba!
